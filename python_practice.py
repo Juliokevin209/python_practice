@@ -19,6 +19,5 @@ for number in sorted_numbers:
     print(number)
 data_analytics = 'Julius Kevin Lugya'    
 data_analytics = list(data_analytics)
-data_analytics.insert(0, 'Mr.')
-data_analytics
+data_analytics.insert(0, 'Mr. ')
 print(''.join(data_analytics))
