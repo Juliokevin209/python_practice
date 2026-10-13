@@ -21,3 +21,7 @@ data_analytics = 'Julius Kevin Lugya'
 data_analytics = list(data_analytics)
 data_analytics.insert(0, 'Mr. ')
 print(''.join(data_analytics))
+
+Data_analytics = ['Julius Kevin Lugya', 27, 'Data cleaning']
+name, age, task = Data_analytics
+print(f'Name: {name}\nAge: {age}\nTask: {task}')
